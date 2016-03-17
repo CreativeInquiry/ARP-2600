@@ -29,15 +29,28 @@ The ARP 2600 has 14 or so modules, along with a keyboard, built-in speakers, and
 
 The most important thing to know about the ARP out is the default wiring between the modules.  These are indicated by friendly diagrams under the patch points and sliders, e.g.:
 
-![overview](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/15slider.png "Slider")
+![slider](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/16slider.png "Slider")
 
-This slider lets you mix in a signal to a module (it's from the ARP filter, but this user interface is consistent across the synth).  Where it gets this signal from depends on whether a cable is patched into the jack below the slider.  If no cable exists, the synth's default wiring is used, and the friendly symbol below the jack tells you the default source.  In this case, it's the square wave output from 'VCO 1' (the first oscillator on the synth).  If you patch a cable in there, that will break the default connection and override it, so that you can write in any signal you like from elsewhere on the synthesizer.
+This slider lets you mix in a signal to a module (this particular slider is from the ARP filter, but this user interface is consistent across the synth).  Where it gets this signal from depends on whether a cable is patched into the jack below the slider.  If no cable exists, the synth's default wiring is used, and the symbol below the jack tells you the default source.  In this case, it's the square wave output from 'VCO 1' (the first oscillator on the synth).  If you patch a cable in there, that will break the default connection and override it, so that you can write in any signal you like from elsewhere on the synthesizer.
 
+Nearly all modules have one or more sliders that allow you to control the mix of one or more inputs.  If these sliders are down, the module will receive no input, from its default wiring or elsewhere.  The default wiring  allows most of the modules on the ARP to interact with no patch cords; without any cables inserted, the ARP wires its oscillators (labeled VCO 1, 2, and 3) through the filter (VCF), into an amplifier (VCA), and from there to a mixer that is wired to the built-in speakers.  By looking at the symbols and adjusting the mix sliders, you can follow the signal path of the modules through the synthesizer.
 
+Below is a list of modules (left-to-right, top row then bottom row), an explanation of their capabilities, and their default wiring (input and output).
 
+### 1 - Pre-Amplifier / Envelope Follower / Ring Modulator
 
+![preamp](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/01preamp_envfol_ringmod.png "Pre-Amp")
 
-
+This module consists of three-submodules:
+- a **pre-amplifier** that allows you to connect an external sound source (mic or line) into the synth, either for processing (e.g. through the filter and amplifier) or to control a parameter of the synth (most likely using the envelope follower).  The knob and the three-way toggle switch allow you to adjust the gain of the input signal.  The **output** patch point allows you to wire the pre-amplifier to the rest of the synthesizer.
+  - *default input* - none.  You can connect any source to the jack to the left of the 'gain' knob.
+  - *default output* - the *pre-amplifier* is wired by default as the input to the *envelope follower*.
+- an **envelope follower**, which converts any input audio signal into a corresponding control voltage based on a smoothed representation of the amplitude (loudness) of the input.  For example, you can use a microphone input to the *pre-amplifier* to generate a CV slope that controls the amplitude of the synthesizers oscillators.  This module allowed Ben Burtt to create R2-D2's voice in Star Wars.
+  - *default input* - the output of the *pre-amplifier*.
+  - *default output* - none.  You can wire the output using a patch cable.
+- a **ring modulator**, which multiplies two audio signals together (or one audio signal and one CV signal, for more traditional amplitude modulation), creating sideband effects that create a signature 'metallic' or 'robotic' sound.  The toggle switch labeled 'audio / dc' allows you to select whether the second input is a sound or a control voltage.
+  - *default input* - the sawtooth wave output of VCO 1 and the sine wave output of VCO 2.
+  - *default output* - the ring modulator is available as a hard-wired input for the VCF.
 
 
 
