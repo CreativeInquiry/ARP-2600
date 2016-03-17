@@ -29,6 +29,10 @@ The ARP 2600 has 14 or so modules, along with a keyboard, built-in speakers, and
 
 The most important thing to know about the ARP out is the default wiring between the modules.  These are indicated by friendly diagrams under the patch points and sliders, e.g.:
 
+![overview](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/15slider.png "Slider")
+
+This slider lets you mix in a signal to a module (it's from the ARP filter, but this user interface is consistent across the synth).  Where it gets this signal from depends on whether a cable is patched into the jack below the slider.  If no cable exists, the synth's default wiring is used, and the friendly symbol below the jack tells you the default source.  In this case, it's the square wave output from 'VCO 1' (the first oscillator on the synth).  If you patch a cable in there, that will break the default connection and override it, so that you can write in any signal you like from elsewhere on the synthesizer.
+
 
 
 
