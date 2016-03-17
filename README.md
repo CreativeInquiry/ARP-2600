@@ -84,7 +84,43 @@ The VCF is the ARP 2600's filter.  Early versions of the ARP 2600 (including our
 - *default input* - the VCF will mix in up to five audio sources - these default to the outputs of the ring modulator, the square wave output of VCO 1, the pulse/pwm output of VCO 2, the sawtooth output of VCO 3, and the output of the noise generator.  The VCF also allows for CV control of its cutoff frequency from three sources - these default to the CV output of the keyboard, the ADSR, and the sine wave output of VCO 2.
 - *default output* - the VCF is wired by default into the input of the VCA and the mixer module.
 
+### 6 - Envelope Generator (ADSR/AR)
 
+![adsr](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/06adsr.png "ADSR")
 
+### 7 - Voltage Controlled Amplifier (VCA)
 
+![vca](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/07vca.png "VCA")
+
+### 8 - Mixer / Reverb / Output
+
+![mixer](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/08mixer_reverb_output.png "Mixer / Reverb / Output")
+
+### 9 - Keyboard CV / 4-in-1 / Left Speaker
+
+![keycv](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/09kbdcv_leftspeaker.png "Keyboard CV")
+
+### 10 - Noise Generator
+
+![noise](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/10noise.png "Noise")
+
+### 11 - Control Voltage Processor
+
+![cvp](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/11voltageprocessor.png "Voltage Processor")
+
+### 12 - Sample and Hold (S/H)
+
+![sh](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/12sah.png "S/H")
+
+### 13 - Right Speaker / Power Switch / Headphone Output
+
+![power](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/13rightspeaker_power_phones.png "Power Switch")
+
+### 14 - Power Light
+
+![powerlight](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/14powerlight.png "Power Light")
+
+### 15 - Keyboard
+
+![keyboard](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/15keyboard.png "Keyboard")
 
