@@ -52,5 +52,13 @@ This module consists of three-submodules:
   - *default input* - the sawtooth wave output of VCO 1 and the sine wave output of VCO 2.
   - *default output* - the ring modulator is available as a hard-wired input for the VCF.
 
+### 2 - Voltage Controlled Oscillator (VCO 1)
+
+![vco1](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/02vco1.png "VCO 1")
+
+This module is the first oscillator for the ARP.  Sliders at the top provide a base frequency (in two ranges) and the ability to fine tune the oscillator.  A toggle switch labeld 'kbd on / kbd off' provides two functions - (1) it wires in control voltage from the keyboard so that you can 'play' the oscilator and (2) it switches the oscillator scaling between a low-frequency oscillator (LFO) mode where its range is between 0.3 and 30Hz ('kbd off') and a high frequency mode where it outputs waveforms between 10Hz and 10kHz ('kbd on').  There are patch point output jacks for a sawtooth wave and a square wave from the VCO.  The mixer section at the bottom allows for frequency modulation of the oscilator.
+- *default input* - the 'kbd on / kbd off' switch allows you to control the oscillator's frequency directly from the keyboard (or any CV source plugged into the left-most 'FM control' jack).  In addition, the mixer section lets you bring in three additional sources for FM; the hard-wired options are the output of the sample-and-hold (S/H) module, the ADSR envelope generator, and the sine wave output of VCO 2.
+- *default output* - the square wave output of VCO 1 is wired by default into the inputs for VCO 2 and the VCF.
+
 
 
