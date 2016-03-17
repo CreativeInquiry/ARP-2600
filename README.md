@@ -60,5 +60,23 @@ This module is the first oscillator for the ARP.  Sliders at the top provide a b
 - *default input* - the 'kbd on / kbd off' switch allows you to control the oscillator's frequency directly from the keyboard (or any CV source plugged into the left-most 'FM control' jack).  In addition, the mixer section lets you bring in three additional sources for FM; the hard-wired options are the output of the sample-and-hold (S/H) module, the ADSR envelope generator, and the sine wave output of VCO 2.
 - *default output* - the square wave output of VCO 1 is wired by default into the inputs for VCO 2 and the VCF.
 
+### 3 - Voltage Controlled Oscillator (VCO 2)
+
+![vco1](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/03vco2.png "VCO 2")
+
+This module is the second oscillator for the ARP, and has more features than VCO 1.  As with the first oscillator, sliders at the top provide a base frequency and fine tune control.  A third slider allows you to set the pulse width for the pulse/pwm wave output.  The 'kbd on / kbd off' provides the same function as on VCO 1, allowing keyboard control of the oscillator and switching between LFO and audible frequency mode.  There are four patch point output jacks on VCO 2 - a triangle wave, a sawtooth, a sine, and a pulse/pwm wave that can vary continuously between a square wave and a short pulse wave.  The mixer section at the bottom allows for frequency modulation of the oscilator, as well as modulation of the pulse width for the pulse/pwm wave output.
+- *default input* - as with VCO 1, the 'kbd on / kbd off' switch allows you to control the oscillator's frequency directly from the keyboard (or any CV source plugged into the left-most 'FM control' jack).  In addition, the mixer section lets you bring in three additional sources for FM; by default, these are the sample-and-hold (S/H) module, the ADSR envelope generator, and the square wave output of VCO 1.
+- *default output* - the sine wave output of VCO 2 is wired by default into the inputs for VCO 1, VCO 3, and the VCF (as a control source).  The pulse/pwm wave output of VCO 2 is wired by default into the VCF as well, as an audio source.
+
+### 4 - Voltage Controlled Oscillator (VCO 3)
+
+![vco1](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/04vco3.png "VCO 3")
+
+VCO3 is the ARP synthesizers third oscillator, intermediate in complexity between VCO 1 and VCO 2.  As with VCO 2, there are sliders for a base frequency, fine tune, and pulse width.  The 'kbd on / kbd off' toggles keyboard control of the oscillator and switches between LFO and audible frequency mode.  The oscillator has output jacks for a sawtooth and a pulse/pwm wave output.  The mixer section at the bottom allows for frequency modulation of the oscilator.
+- *default input* - as with VCO 1 and VCO 2, the 'kbd on / kbd off' switch allows you to control the oscillator's frequency directly from the keyboard (or any CV source plugged into the left-most 'FM control' jack).  The mixer section lets you bring in three FM sources; by default, these are the output of the noise generator, the ADSR envelope generator, and the sine wave output of VCO 2.
+- *default output* - the sawtooth wave output of VCO 3 is wired by default into the input of the VCF.
+
+
+
 
 
