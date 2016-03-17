@@ -155,3 +155,11 @@ The power light above the power switch confirms whether the ARP 2600 is turned o
 
 ![keyboard](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/15keyboard.png "Keyboard")
 
+The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control voltage scaled to the key pressed, as well as a secondary voltage line that puts out a high voltage when a key is depressed.  The toggle switch allows you to adjust the keyboard's voltage scaling between a fixed (1 volt / octave) scaling and a custom scaling set by the knob on the left.  This allows you to 'tune' the keyboard to any tuning system you like where octaves have equal voltage spacing.  The knob on the bottom left is a master tuning control for the keyboard, scaling the entire voltage up or down.  The 'portamento' knob, when engaged, smooths the control voltage from the keyboard over a certain amount of time, making a gliding pitch effect between keys.
+
+#### Known issues with the ARP 2600 at the STUDIO
+
+- the mixer and reverberator circuitry are blown.  As a result, in order to hear sound, you need to patch a single wire directly between the output of the VCA and the 'insert' input at the top of the mixer module (as shown in the photograph).
+- the keyboard connection cable is flaky.  As a result, keyboard CV input, as well as the gate/trigger inputs from the keyboard in the envelope generator module, are unreliable.
+- the slide pots are all, to varying degrees, scratchy and slightly rusted.  Take care when moving them so that they don't break.
+- 
