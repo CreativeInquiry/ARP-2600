@@ -177,7 +177,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 
 ### Known issues with the ARP 2600 at the STUDIO
 
-- The mixer and reverberator circuitry are partially blown.  As a result, in order to hear sound, you need to either bypass the mixer by patching a single wire directly between the output of the VCA and the 'insert' input at the top of the mixer module (as shown in the photograph), or patch one side of a cable into the input to the reverberator (wired by default to the output of the mixer).
+- The mixer and reverberator circuitry are partially blown.  As a result, in order to hear sound, you need *bypass the mixer* by patching a single wire directly between the output of the VCA and the 'insert' input at the top of the mixer module (as shown in the photograph).
 - The keyboard connection cable is flaky.  As a result, keyboard CV input, as well as the gate/trigger inputs from the keyboard in the envelope generator module, are unreliable.
 - The slide pots are all, to varying degrees, scratchy and slightly rusted.  Take care when moving them so that they don't break.
 
