@@ -4,22 +4,33 @@ Documentation for the ARP 2600 at the [Frank-Ratchye STUDIO for Creative Inquiry
 
 [R. Luke DuBois](https://github.com/rev3rend), March 2016.
 
+[Jet Townsend](https://github.com/functionalprototype), edits as needed, maintenance log
+
+
 ![overview](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/00overview.png "Overview")
 
 ### Introduction
 
-The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a 'semi-modular' [analog synthesizer](https://en.wikipedia.org/wiki/Analog_synthesizer) designed by Dennis Colin and [Alan Robert Pearlman](https://en.wikipedia.org/wiki/Alan_R._Pearlman) - [A.R.P.](https://en.wikipedia.org/wiki/ARP_Instruments) himself - and commercially released in 1971.  It was one of the first synthesizers extensively marketed for education, with a retail price of below $3500.  It is considered one of the canonical synthesizers of its day, so a 'mint' (or fully-restored) ARP 2600 can easily fetch $10K or more today.
+The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a 'semi-modular' [analog synthesizer](https://en.wikipedia.org/wiki/Analog_synthesizer) designed by Dennis Colin and [Alan Robert Pearlman](https://en.wikipedia.org/wiki/Alan_R._Pearlman) - [A.R.P.](https://en.wikipedia.org/wiki/ARP_Instruments) himself - and commercially released in 1971.  It was one of the first synthesizers extensively marketed for education, with a retail price of below $3,500.  It is considered one of the canonical synthesizers of its day, so a 'mint' (or fully-restored) ARP 2600 can easily fetch $10,000 or more today.
 
 The ARP 2600 shows up in a lot of strange places... the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division).  It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the 'voice' of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
 
 You can see an original ARP 2600 owner's manual [here](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf) and a service manual [here](http://guitarfool.com/ARP2600/2600ServiceManual.pdf).
+
+#### Important:  ARP 2600 Cables Are Not 1/8" Audio Standard
+
+The ARP synthesizers are built with Switchcraft(r) [Tini-Jax(r)](http://www.switchcraft.com/Category.aspx?Parent=60) sockets instead of standard 1/8" audio sockets.  The Tini-Jax connector is .141" in diameter, larger than a 1/8" jack (.125") or a contemporary 3.5mm jack (.138").  Contemporary plugs will work in a Tini-Jax socket but feel a bit loose even after the plug is fully inserted.
+
+Because a Tini-Jax plug can destroy a 3.5mm or 1/8" socket we are not making vintage correct patch cables using Tini-Jax for the ARP 2600.  So far (11 August, 2019) we have not found **any** Tini-Jax cables in the STUDIO.
+
+If you are working with other vintage analog synths in the STUDIO and bring in your own cables, verify with calipers whether or not you have Tini-Jax patch cables or 1/8" cables. 
 
 ### The Basics
 
 The ARP 2600 is:
 - **Semi-modular** : unlike pure modular synthesizers (like the [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments), [Serge](https://en.wikipedia.org/wiki/Serge_synthesizer), and [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) synthesizers), the ARP 2600 has a *default internal wiring* between the individual modules (similar to [patchbay 'normalization'](https://en.wikipedia.org/wiki/Patch_panel#Normalization) in a recording studio) so that you could bring it home, plug it in, turn it on, and get sound out of the built-in speakers without any additional work.  The patch points on the front of the synthesizer then *override* these internal connections by breaking the internal connection, allowing you to customize how the modules are routed from one to another to make new sounds.  
 - [**Monophonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the ARP 2600, by default, is meant to be played with a keyboard controller, one note at a time, with each note making the same kind of 'sound,' or timbre.  However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
-- **Voltage-based** : like most modular synthesizers of the day, the ARP uses voltage for both transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators) and [control voltage](https://en.wikipedia.org/wiki/CV/Gate) to modify parameters of the synthesizer.  These signals are *both* carried over [3.5mm / 1/8" 'mini'-style audio jacks](https://en.wikipedia.org/wiki/Phone_connector_(audio)).  This allows you to treat audio signals as control voltage when using the synthesizer so that, for example, an oscillator can be used to 'sweep' the cutoff frequency of a filter.  The downside of this is that *you can accidentally patch a control voltage line into the signal path to the speakers*, which can damage both the speakers and your ears.
+- **Voltage-based** : like most modular synthesizers of the day, the ARP uses voltage for both transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators) and [control voltage](https://en.wikipedia.org/wiki/CV/Gate) to modify parameters of the synthesizer.  These signals are *both* carried over [Switchcraft(R) Tini-D-Jax(R) brand audio jacks](https://en.wikipedia.org/wiki/Phone_connector_(audio)).  This allows you to treat audio signals as control voltage when using the synthesizer so that, for example, an oscillator can be used to 'sweep' the cutoff frequency of a filter.  The downside of this is that *you can accidentally patch a control voltage line into the signal path to the speakers*, which can damage both the speakers and your ears.
 - **Subtractive** : the ARP 2600 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers.  This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the ARP 2600 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
 - **Multiple source / single destination** : many modules on the ARP can mix (add together) signals from a number of inputs without requiring an additional mixer module, but generally have only one patch point for the module's output.  This goes for control voltage as well, so that you can often modulate a parameter of the synthesizer with more than one source at once.  This is different from, e.g. a Buchla synthesizer, where separate mixer modules must be used to combine several oscillators through a single filter, or Serge synthesizers, where [banana jacks](https://en.wikipedia.org/wiki/Banana_connector) can be stacked to send a module's output to several places at once.  
 
@@ -175,10 +186,31 @@ The power light above the power switch confirms whether the ARP 2600 is turned o
 
 The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control voltage scaled to the key pressed, as well as a secondary voltage line that puts out a high (5 V) voltage when a key is depressed and 0 volts when no keys are touched.  The toggle switch allows you to adjust the keyboard's voltage scaling between a fixed (1 volt / octave) scaling and a custom scaling set by the knob on the left.  This allows you to 'tune' the keyboard to any tuning system you like where octaves have equal voltage spacing.  The knob on the bottom left is a master tuning control for the keyboard, scaling the entire voltage range up or down.  The ['portamento'](https://en.wikipedia.org/wiki/Portamento) knob, when engaged, smooths the control voltage from the keyboard over a certain amount of time, making a gliding pitch effect between keys.
 
-### Known issues with the ARP 2600 at the STUDIO
+### Maintenance and repairs for the ARP 2600 at the STUDIO
+
+#### Completed work
+
+- 12 June, 2019: Triage unit, estimate cost of repairs, order replacement parts.
+- 10 July, 2019: All sliders replaced with new sliders.
+- 1 Aug, 2019: Most sockets replced with new sockets, remaineder will be replaced after keyboard is repaired.
+- 1 Aug, 2019: Several disconnected solder joints repaired at sockets while sockets were replaced.
+- 11 Aug, 2019: Keyboard disassembled, gold spring keyboard contacts cleaned, keys cleaned, key height adjusted as needed, rubber pegs holding PCB board replaced.
+
+#### Remaining work
+
+- Replace speakers
+- Determine if right speaker is still not functioning (might be dead and needed replacement)
+- Evaluate keyboard / cable (see [known issues](#known_issues))
+- Verify all internal solder connections using patch cables, sockets, and VOM.
+- Tune.
+- Replace mains line with line that can be disconnected/replaced, plug existing ARP socket that is a shock hazard.
+
+### <a name="known_issues"></a> Known issues with the ARP 2600 at the STUDIO
+
+If you find any problems not listed below, ask someone in the STUDIO to update this list.
 
 - The mixer and reverberator circuitry are partially blown.  As a result, in order to hear sound, you need to *bypass the mixer* by patching a single wire directly between the output of the VCA and the 'insert' input at the top of the mixer module (as shown in the photograph).
 - The keyboard connection cable is flaky.  As a result, keyboard CV input, as well as the gate/trigger inputs from the keyboard in the envelope generator module, are unreliable.
-- The slide pots are all, to varying degrees, scratchy and slightly rusted.  Take care when moving them so that they don't break.
+- Spring reverb is also an FM receiver that picks up local radio stations.
 
 Have fun!
