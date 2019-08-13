@@ -195,6 +195,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 1 Aug, 2019: Most sockets replced with new sockets, remaineder will be replaced after keyboard is repaired.
 - 1 Aug, 2019: Several disconnected solder joints repaired at sockets while sockets were replaced.
 - 11 Aug, 2019: Keyboard disassembled, gold spring keyboard contacts cleaned, keys cleaned, key height adjusted as needed, rubber pegs holding PCB board replaced.
+- 13 Aug, 2019: Spring reverb is no longer and FM receiver.  Extension cables used while debugging were acting as antennas.
 
 #### Remaining work
 
@@ -211,6 +212,5 @@ If you find any problems not listed below, ask someone in the STUDIO to update t
 
 - The mixer and reverberator circuitry are partially blown.  As a result, in order to hear sound, you need to *bypass the mixer* by patching a single wire directly between the output of the VCA and the 'insert' input at the top of the mixer module (as shown in the photograph).
 - The keyboard connection cable is flaky.  As a result, keyboard CV input, as well as the gate/trigger inputs from the keyboard in the envelope generator module, are unreliable.
-- Spring reverb is also an FM receiver that picks up local radio stations.
 
 Have fun!
