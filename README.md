@@ -196,11 +196,13 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 1 Aug, 2019: Several disconnected solder joints repaired at sockets while sockets were replaced.
 - 11 Aug, 2019: Keyboard disassembled, gold spring keyboard contacts cleaned, keys cleaned, key height adjusted as needed, rubber pegs holding PCB board replaced.
 - 13 Aug, 2019: Spring reverb is no longer and FM receiver.  Extension cables used while debugging were acting as antennas.
+- 19 Aug, 2019: Right channel is dead on speaker and headphones, suspect amp failure or a lose wire
+- 19 Aug, 2019: Found several loose wires in keyboard, resoldered.
+- 19 Aug, 2019: Using left speaker ran through the first level diagnostics and things look good.
 
 #### Remaining work
 
-- Replace speakers
-- Determine if right speaker is still not functioning (might be dead and needed replacement)
+- Replace speakers: expensive if even possible.  ARP 2600 speakers are 40 Ohm units no longer in production.  A professional speaker restoration service could re-cone these if that is the problem.
 - Evaluate keyboard / cable (see [known issues](#known_issues))
 - Verify all internal solder connections using patch cables, sockets, and VOM.
 - Tune.
@@ -212,5 +214,6 @@ If you find any problems not listed below, ask someone in the STUDIO to update t
 
 - The mixer and reverberator circuitry are partially blown.  As a result, in order to hear sound, you need to *bypass the mixer* by patching a single wire directly between the output of the VCA and the 'insert' input at the top of the mixer module (as shown in the photograph).
 - The keyboard connection cable is flaky.  As a result, keyboard CV input, as well as the gate/trigger inputs from the keyboard in the envelope generator module, are unreliable.
+- 60Hz hum.  There might be noting that can done about this.
 
 Have fun!
