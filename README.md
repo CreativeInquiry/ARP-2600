@@ -195,7 +195,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 1 Aug, 2019: Most sockets replced with new sockets, remaineder will be replaced after keyboard is repaired.
 - 1 Aug, 2019: Several disconnected solder joints repaired at sockets while sockets were replaced.
 - 11 Aug, 2019: Keyboard disassembled, gold spring keyboard contacts cleaned, keys cleaned, key height adjusted as needed, rubber pegs holding PCB board replaced.
-- 13 Aug, 2019: Spring reverb is no longer and FM receiver.  Extension cables used while debugging were acting as antennas.
+- 13 Aug, 2019: Spring reverb is no longer an FM receiver.  Extension cables used while debugging were acting as antennas.
 - 19 Aug, 2019: Right channel is dead on speaker and headphones, suspect amp failure or a lose wire
 - 19 Aug, 2019: Found several loose wires in keyboard, resoldered.
 - 19 Aug, 2019: Using left speaker ran through the first level diagnostics and things look good.
@@ -214,6 +214,6 @@ If you find any problems not listed below, ask someone in the STUDIO to update t
 
 - The right channel is dead in the speaker and headphone.
 - ADSR is not generating a signal.
-- 60Hz hum.  There might be noting that can done about this.
+- 60Hz hum.  There might be nothing that can done about this.
 
 Have fun!
