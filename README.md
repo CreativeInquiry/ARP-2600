@@ -199,11 +199,11 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 19 Aug, 2019: Right channel is dead on speaker and headphones, suspect amp failure or a lose wire
 - 19 Aug, 2019: Found several loose wires in keyboard, resoldered.
 - 19 Aug, 2019: Using left speaker ran through the first level diagnostics and things look good.
+- 21 Aug, 2019: Replaced keyboard cable and jacks on ARP and keyboard.  Resolder several loose connections in keyboard.
 
 #### Remaining work
 
 - Replace speakers: expensive if even possible.  ARP 2600 speakers are 40 Ohm units no longer in production.  A professional speaker restoration service could re-cone these if that is the problem.
-- Evaluate keyboard / cable (see [known issues](#known_issues))
 - Verify all internal solder connections using patch cables, sockets, and VOM.
 - Tune.
 - Replace mains line with line that can be disconnected/replaced, plug existing ARP socket that is a shock hazard.
@@ -212,8 +212,8 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 
 If you find any problems not listed below, ask someone in the STUDIO to update this list.
 
-- The mixer and reverberator circuitry are partially blown.  As a result, in order to hear sound, you need to *bypass the mixer* by patching a single wire directly between the output of the VCA and the 'insert' input at the top of the mixer module (as shown in the photograph).
-- The keyboard connection cable is flaky.  As a result, keyboard CV input, as well as the gate/trigger inputs from the keyboard in the envelope generator module, are unreliable.
+- The right channel is dead in the speaker and headphone.
+- ADSR is not generating a signal.
 - 60Hz hum.  There might be noting that can done about this.
 
 Have fun!
