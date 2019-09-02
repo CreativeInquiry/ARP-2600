@@ -15,7 +15,16 @@ The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a 'semi-modular' [anal
 
 The ARP 2600 shows up in a lot of strange places... the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division).  It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the 'voice' of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
 
-You can see an original ARP 2600 owner's manual [here](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf) and a service manual [here](http://guitarfool.com/ARP2600/2600ServiceManual.pdf).
+#### Documentation
+
+Original ARP 2600 owner's manual [here](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf)
+
+Complete ARP 2600 Service Manual (119 pgs) [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Service-Manual-Complete-119pgs.pdf)
+
+Complete ARP 2600-2606 Service Manual (53 pgs) [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-200-2606-Service-Manual-Complete-53pgs.pdf)
+
+ARP 2600 Wiring Harness [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Harness-Wiring.jpg)
+
 
 #### Important:  ARP 2600 Cables Are Not 1/8" Audio Standard
 
