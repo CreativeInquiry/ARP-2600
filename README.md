@@ -210,6 +210,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 19 Aug, 2019: Using left speaker ran through the first level diagnostics and things look good.
 - 21 Aug, 2019: Replaced keyboard cable and jacks on ARP and keyboard.  Resolder several loose connections in keyboard.
 - 31 Aug, 2019: Requsted SCI order a replacement ADSR unit.
+- 1 Jan, 2020: Replaced 3604P Q5 transistor, GATE now functioning
 
 #### Remaining work
 
