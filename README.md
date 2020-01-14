@@ -210,7 +210,9 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 19 Aug, 2019: Using left speaker ran through the first level diagnostics and things look good.
 - 21 Aug, 2019: Replaced keyboard cable and jacks on ARP and keyboard.  Resolder several loose connections in keyboard.
 - 31 Aug, 2019: Requsted SCI order a replacement ADSR unit.
+- 1 Sep, 2019: Replaced ADSR unit, still not functioning.  Appears GATE and TRIGGER are not getting to the ADSR.
 - 1 Jan, 2020: Replaced 3604P Q5 transistor, GATE now functioning
+- 13 Jan, 2020: Diagnosed dead TRIGGER in keyboard, probably (another) dead transistor
 
 #### Remaining work
 
@@ -224,7 +226,6 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 If you find any problems not listed below, ask someone in the STUDIO to update this list.
 
 - The right channel is dead in the speaker and headphone.  (I believe a transistor in an amp is dead. --jet)
-- ADSR is not generating a signal (replacement on order).
 - 60Hz hum.  There might be nothing that can done about this.
 
 Have fun!
