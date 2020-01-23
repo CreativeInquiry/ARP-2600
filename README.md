@@ -15,6 +15,8 @@ The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a 'semi-modular' [anal
 
 The ARP 2600 shows up in a lot of strange places... the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division).  It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the 'voice' of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
 
+The ARP 2600 at the Studio is serial number 13029, making it an ARP 2600P 1.0 manufactured by Tonus Inc. in 1971.  [This guide to the ARP2600](http://www.vintagesynth.com/arp/arp.php) shows the various models of ARP 2600 and the differences in electronics and construction.
+
 #### Documentation
 
 Original ARP 2600 owner's manual [here](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf)
