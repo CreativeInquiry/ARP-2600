@@ -218,7 +218,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 
 #### Remaining work
 
-- On advice from the repair/owners forum, start replacing all the transistors in any component that isn't working.  The TTSH project has found contemporary transistors to replace the ones that went out of manufacture in the 80s -- it's faster to replace a half-dozen transisitors than try and diagnose which one(s) are failing.  [Transistor replacement guide](https://github.com/CreativeInquiry/ARP-2600/blob/master/replacement-transistor-layout.svg)
+- On advice from the repair/owners forum, start replacing all the transistors in any component that isn't working.  The TTSH project has found contemporary transistors to replace the ones that went out of manufacture in the 80s -- it's faster to replace a half-dozen transisitors than try and diagnose which one(s) are failing. I made a [Transistor replacement guide](https://github.com/CreativeInquiry/ARP-2600/blob/master/replacement-transistor-layout.svg) that shows how you can simply rotate the replacement transistors and swap two of the legs.
 - Replace speakers: expensive if even possible.  ARP 2600 speakers are 40 Ohm units no longer in production.  A professional speaker restoration service could re-cone these if that is the problem.
 - Verify all internal solder connections using patch cables, sockets, and VOM.
 - Tune.
