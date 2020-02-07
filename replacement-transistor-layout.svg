@@ -362,5 +362,27 @@
        d="M 7.075224,6.0843245 6.5439738,4.7900605"
        id="path6828-1"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.41666681px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041667"
+       x="0.99515271"
+       y="0.57012349"
+       id="text6868"><tspan
+         sodipodi:role="line"
+         id="tspan6866"
+         x="0.99515271"
+         y="0.57012349"
+         style="stroke-width:0.01041667">TZ-81</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.41666684px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041667"
+       x="0.88578326"
+       y="4.3182459"
+       id="text6868-4"><tspan
+         sodipodi:role="line"
+         id="tspan6866-2"
+         x="0.88578326"
+         y="4.3182459"
+         style="stroke-width:0.01041667">TZ-581</tspan></text>
   </g>
 </svg>
