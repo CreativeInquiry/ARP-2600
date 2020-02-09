@@ -214,8 +214,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 1 Sep, 2019: Replaced ADSR unit, still not functioning.  Appears GATE and TRIGGER are not getting to the ADSR.
 - 1 Jan, 2020: Replaced 3604P Q5 transistor, GATE now functioning
 - 13 Jan, 2020: Diagnosed dead TRIGGER in keyboard, probably (another) dead transistor
-- 22 Jan, 2020: Replaced Q1, Q2, Q3 in 3604P, still no TRIGGER
-- 7 Feb, 2020: Replaced Q4 [NEEDS TESTING]
+- 7 Feb, 2020: Replaced Q1, Q2, Q3, Q4 in 3604. Keyboard is sending 13.9V signal to controller, controller relaying 0V trigger and sending 5V back to keyboard.  Need to test every component in controller, including resistors and caps.
 
 #### Remaining work
 
