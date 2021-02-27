@@ -215,6 +215,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 1 Jan, 2020: Replaced 3604P Q5 transistor, GATE now functioning
 - 13 Jan, 2020: Diagnosed dead TRIGGER in keyboard, probably (another) dead transistor
 - 7 Feb, 2020: Replaced Q1, Q2, Q3, Q4 in 3604. Keyboard is sending 13.9V signal to controller, controller relaying 0V trigger and sending 5V back to keyboard.  Need to test every component in controller, including resistors and caps.
+- Mar 2020 - 26 Feb, 2021:  Learned a lot about components that haven't been manufactured since the early 80s and their replacments.  Recapped the keyboard, now have TRIGGER and GATE working, CV is still flaky.  I suspect that one of the many solders from 1971 is partially corroded, will chase down all the pin-to-pin connections.  Also looking in to the dead right channel.  It's not just the speaker that's dead, the audio out for the right channel jack is also flaky.  Found replacement parts for the AC jack
 
 #### Remaining work
 
@@ -223,6 +224,7 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - Verify all internal solder connections using patch cables, sockets, and VOM.
 - Tune.
 - Replace mains line with line that can be disconnected/replaced, plug existing ARP socket that is a shock hazard.
+- Add DB9 connector that works with current CV voltage ranges. ARP used 0-15V from the keyboard for some values while everyone else used lower high voltages, usually 0-10V.
 
 ### <a name="known_issues"></a> Known issues with the ARP 2600 at the STUDIO
 
