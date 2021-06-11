@@ -23,7 +23,8 @@ Original ARP 2600 owner's manual [here](http://guitarfool.com/ARP2600/Arp%202600
 Complete ARP 2600 Service Manual (119 pgs) [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Service-Manual-Complete-119pgs.pdf)
 
 Complete ARP 2600-2606 Service Manual (53 pgs) [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-200-2606-Service-Manual-Complete-53pgs.pdf)
-This is a more recent version of the Service Manual and contains many "Service Notes" along with corrections to schematics printed in earlier manuals.
+
+-  This is a more recent version of the Service Manual and contains many "Service Notes" along with corrections to schematics printed in earlier manuals.
 
 ARP 2600 Wiring Harness [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Harness-Wiring.jpg)
 
