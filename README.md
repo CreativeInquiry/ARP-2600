@@ -4,7 +4,9 @@ Documentation for the ARP 2600 at the [Frank-Ratchye STUDIO for Creative Inquiry
 
 [R. Luke DuBois](https://github.com/rev3rend), March 2016.
 
-[Jet Townsend](https://github.com/functionalprototype), edits as needed, maintenance log
+[Jet Townsend](https://github.com/functionalprototype), edits as needed, maintenance log (retired from project 2020).
+
+[Harrison Apple](https://github.com/happle-happle), July 2024 to present.
 
 ![overview](https://github.com/CreativeInquiry/ARP-2600/raw/master/images/00overview.png "Overview")
 
@@ -218,9 +220,14 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 13 Jan, 2020: Diagnosed dead TRIGGER in keyboard, probably (another) dead transistor
 - 7 Feb, 2020: Replaced Q1, Q2, Q3, Q4 in 3604. Keyboard is sending 13.9V signal to controller, controller relaying 0V trigger and sending 5V back to keyboard.  Need to test every component in controller, including resistors and caps.
 - Mar 2020 - 26 Feb, 2021:  Learned a lot about components that haven't been manufactured since the early 80s and their replacments.  Recapped the keyboard, now have TRIGGER and GATE working, CV is still flaky.  I suspect that one of the many solders from 1971 is partially corroded, will chase down all the pin-to-pin connections.  Also looking in to the dead right channel.  It's not just the speaker that's dead, the audio out for the right channel jack is also flaky.  Found replacement parts for the AC jack
+- June-July 2024: Our ARP 2600 was fully refurbished by BellTone Synth Works, founded and led by Alison Stout in Philadelphia Pennsylvania. She included a homemade convertor box for connecting cords that are 3.5mm or 1/4" mono to 3.56mm or "TiniJax" patch cords. They also purchased a handful of varying sized 3.56mm "Tinijax" cables.
 
-#### Remaining work
+#### Future Needs (previously "Remaining work")
 
+-  More 3.56mm cables can be purchased from Sweetwater.
+-  The headphone port may need to be replaced in the future, they gave us a replacement part and it is in the parts bin kept with the ARP 
+---
+("remaining work")
 - On advice from the repair/owners forum, start replacing all the transistors in any component that isn't working.  The TTSH project has found contemporary transistors to replace the ones that went out of manufacture in the 80s -- it's faster to replace a half-dozen transisitors than try and diagnose which one(s) are failing. I made a [Transistor replacement guide](https://github.com/CreativeInquiry/ARP-2600/blob/master/replacement-transistor-layout.svg) that shows how you can simply rotate the replacement transistors and swap two of the legs.
 - Replace speakers: expensive if even possible.  ARP 2600 speakers are 40 Ohm units no longer in production.  A professional speaker restoration service could re-cone these if that is the problem.
 - Verify all internal solder connections using patch cables, sockets, and VOM.
@@ -231,8 +238,8 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 ### <a name="known_issues"></a> Known issues with the ARP 2600 at the STUDIO
 
 If you find any problems not listed below, ask someone in the STUDIO to update this list.
-
-- The right channel is dead in the speaker and headphone.  (I believe a transistor in an amp is dead. --jet)
 - 60Hz hum.  There might be nothing that can done about this.
 
 Have fun!
+
+
