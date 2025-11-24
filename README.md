@@ -220,11 +220,11 @@ The ARP 2600 keyboard (model 3604-P, if you're interested), outputs control volt
 - 13 Jan, 2020: Diagnosed dead TRIGGER in keyboard, probably (another) dead transistor
 - 7 Feb, 2020: Replaced Q1, Q2, Q3, Q4 in 3604. Keyboard is sending 13.9V signal to controller, controller relaying 0V trigger and sending 5V back to keyboard.  Need to test every component in controller, including resistors and caps.
 - Mar 2020 - 26 Feb, 2021:  Learned a lot about components that haven't been manufactured since the early 80s and their replacments.  Recapped the keyboard, now have TRIGGER and GATE working, CV is still flaky.  I suspect that one of the many solders from 1971 is partially corroded, will chase down all the pin-to-pin connections.  Also looking in to the dead right channel.  It's not just the speaker that's dead, the audio out for the right channel jack is also flaky.  Found replacement parts for the AC jack
-- June-July 2024: Our ARP 2600 was fully refurbished by BellTone Synth Works, founded and led by Alison Stout in Philadelphia Pennsylvania. She included a homemade convertor box for connecting cords that are 3.5mm or 1/4" mono to 3.56mm or "TiniJax" patch cords. They also purchased a handful of varying sized 3.56mm "Tinijax" cables.
+- June-July 2024: Our ARP 2600 was fully refurbished by BellTone Synth Works, founded and led by Alison Stout in Philadelphia Pennsylvania. She included a homemade convertor box for connecting cords that are 3.5mm or 1/4" mono to 3.58mm or "Tini Jax" patch cords. They also purchased a handful of varying sized 3.58mm "Tinijax" cables.
 
 #### Future Needs (previously "Remaining work")
 
--  More 3.56mm cables can be purchased from Sweetwater.
+-  More 3.58mm cables can be purchased from [Sweetwater](https://www.sweetwater.com/store/detail/Tini12--buchla-3.58mm-tinicable-12-inch-orange).
 -  The headphone port may need to be replaced in the future, they gave us a replacement part and it is in the parts bin kept with the ARP 
 ---
 ("remaining work")
