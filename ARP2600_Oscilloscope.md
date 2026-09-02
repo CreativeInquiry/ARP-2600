@@ -1,9 +1,3 @@
-<style>
-img {
-  width: 300px;
-}
-</style>
-
 A GUIDE TO VISUALIZING SIGNALS WITH THE ARP-2600
 ======
 
@@ -11,7 +5,6 @@ Setup
 ------
 
 1. Differential probe
-    - talk about the one being used here
 2. Alligator clips
 3. Mini-jack patch cable
 4. ARP2600
