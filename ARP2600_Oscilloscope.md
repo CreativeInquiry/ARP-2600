@@ -13,7 +13,7 @@ Setup
 
 ### ARP2600
 
-There are three types of jacks on the ARP: input, output, and both (only one exists). Following the convention of the manual, connections will be referred to by the unit they draw from and the unit they input to, so that the Mixer input from the VCF is called "VCF-Mixer." To *open* an input is to move the attenuator (slider) above it up, and to *close* is the opposite.
+There are three types of jacks on the ARP: input, output, and both. Following the convention of the manual, inputs will be referred to by the unit they draw from and the unit they input to, so that the Mixer input from the VCF is called "VCF-Mixer." The corresponding jack will be given the same name. To *open* an input is to move the attenuator (slider) above it up, and to *close* is to move it down. 
 
 Setup:
 
@@ -95,8 +95,8 @@ Providing a signal to the "FM Control" input of an oscillator allows it to modif
 
 #### Modulating Audio with LF
 
-1. Open VCF-Mixer  
-2. Open VCO2-VCO3  
+1. Open VCF-Mixer
+2. Open VCO2-VCO3
 3. Switch VCO2 to LF
 
 If the modulating frequency is low enough, the modulated signal will change frequency over time in the oscilloscope and audibly. An interesting effect when modulating with a low frequency square or pulse wave is that that the signal will appear to instantly change frequency, while a smoother wave will cause this transition to look smoother.
@@ -105,8 +105,8 @@ If the modulating frequency is low enough, the modulated signal will change freq
 
 #### Modulating Audio with Audio
 
-1. Open VCF into mixer  
-2. Open VCO2 into VCO3
+1. Open VCF-Mixer
+2. Open VCO2-VCO3
 
 If the audio frequencies are near each other, interesting effects will become visible as the shape of the modulating wave interferes with the shape of the modulated wave. Notice how the sine wave is visible in the warping of the sawtooth.  
 ![][fm1]  
@@ -121,8 +121,8 @@ The VCF is a low-pass filter with a variable amount of resonance. A low-pass fil
 
 #### Low-Passing
 
-1. Open VCF into mixer  
-2. Open VCO3 into VCF  
+1. Open VCF-Mixer  
+2. Open VCO3-VCF  
 3. Bring the initial filter frequency down
 
 The sharp corners of the waveform are smoothed out as the filter frequency reaches the fundamental of the oscillator. Cutting out the higher frequencies makes the wave resemble a sine wave more. Bringing the filter frequency below the oscillator frequency starts to attenuate the fundamental.
@@ -131,8 +131,8 @@ The sharp corners of the waveform are smoothed out as the filter frequency reach
 
 #### Resonance
 
-1. Open VCF into mixer  
-2. Open VCO3 into VCF  
+1. Open VCF-Mixer  
+2. Open VCO3-VCF  
 3. Increase the resonance to about halfway  
 4. Adjust the initial filter frequency to maximize the amplitude of the signal
 
@@ -142,8 +142,8 @@ When the resonance is increased, it causes the filter to amplify frequencies at 
 
 #### Harmonics
 
-1. Open VCF into mixer  
-2. Open VCO3 into VCF  
+1. Open VCF-Mixer  
+2. Open VCO3-VCF  
 3. Increase the resonance to about halfway  
 4. Adjust the initial filter frequency to maximize the amplitude of the signal  
 5. Sweep up the filter frequency and listen for points when distinct pitches ring out
