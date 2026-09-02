@@ -1,6 +1,30 @@
 A GUIDE TO VISUALIZING SIGNALS WITH THE ARP-2600
 ======
 
+
+Contents
+--------
+
+1. [Setup](#setup)
+    - [Materials](#materials)
+    - [ARP2600](#arp2600)
+    - [Oscilloscope](#oscilloscope)
+2. [Producing Visuals](#producing-visuals)
+    1. [Basic Waveforms](#basic-waveforms)
+        - [Sine](#sine-from-vco2)
+        - [Square](#square-from-vco1)
+        - [Sawtooth](#sawtooth-from-vco3)
+        - [Pulse](#pulse-from-vco2)
+    2. [Adding Signals](#adding-signals)
+    3. [FM Synthesis](#fm-synthesis)
+        - [Modulating Audio with LF](#modulating-audio-with-lf)
+        - [Modulating Audio with Audio](#modulating-audio-with-audio)
+    4. [Filtering](#filtering)
+        - [Low-Passing](#low-passing)
+        - [Resonance](#resonance)
+        - [Harmonics](#harmonics)
+
+
 Setup
 ------
 
