@@ -55,6 +55,7 @@ Setup:
 2. To prepare the probes, clip the ground (black) clip of the probe to the sleeve of the patch cable. Attach the alligator clip between the head of the patch cable and the main clip of the probe
 3. Unless otherwise noted, the probe cable will be connected to the output of the VCF
 
+Probe Setup:
 ![][probe_setup]
 
 Producing Visuals
@@ -73,6 +74,8 @@ These periodic waveforms will be the basis of many of the effects produced later
 The sine wave is the most fundamental wave; every other waveform can be decomposed into a combination of (sometimes infinite) sine waves. The sine wave has a very pure tone and a smooth appearance.  
 ![Oscilloscope producing a sine wave][sinewave]
 
+
+
 #### Square (from VCO1):
 
 - Open VCF-Mixer
@@ -81,6 +84,7 @@ The sine wave is the most fundamental wave; every other waveform can be decompos
 The angular nature of the square wave is due to its composition of infinite odd harmonics of the fundamental. This gives it a more complex, richer sound than the sine wave. The sudden switching property of it is also interesting when used as a control signal.  
 ![][squarewave]
 
+
 #### Sawtooth (from VCO3):
 
 1. Open VCF-Mixer  
@@ -88,6 +92,7 @@ The angular nature of the square wave is due to its composition of infinite odd 
 
 The sawtooth contains every integer harmonic of the fundamental. This gives it an even richer sound than the square wave.  
 ![][sawtoothwave]
+
 
 #### Pulse (from VCO2):
 
@@ -108,8 +113,10 @@ In general, when multiple signals are put into the same control, they are added 
 
 Adjusting the oscillators to bring them into tune with each other. The difference in frequency will be visible as the waves moving slightly out of phase with each other. Note how the waves lie on top of (in phase with) each other in the oscilloscope, moving only slightly. To tune to a resonant interval  
 ![][additive1]  
- Tuning the waves to fifths and octaves of each other produces similar effects. Each octave above introduces another period of that wave in the other.  
+
+Tuning the waves to fifths and octaves of each other produces similar effects. Each octave above introduces another period of that wave in the other.  
 ![][additive2]  
+
 Tuning them away from each other instead produces chaotic patterns atop the wave being tracked, and it sounds as if two notes are being played.  
 ![][additive3]
 
@@ -134,10 +141,13 @@ If the modulating frequency is low enough, the modulated signal will change freq
 
 If the audio frequencies are near each other, interesting effects will become visible as the shape of the modulating wave interferes with the shape of the modulated wave. Notice how the sine wave is visible in the warping of the sawtooth.  
 ![][fm1]  
- If the modulating wave is a few octaves or so below the modulated wave, the modulation will become visible as a stretching and squashing of the wave outlining the shape of the modulating wave. The amplitude will also decrease because of the slight low-pass effect of the circuits of the ARP.  
+
+If the modulating wave is a few octaves or so below the modulated wave, the modulation will become visible as a stretching and squashing of the wave outlining the shape of the modulating wave. The amplitude will also decrease because of the slight low-pass effect of the circuits of the ARP.  
 ![][fm2]![][fm3]  
+
 If the modulating wave is a few octaves above the modulated, the warping caused by modulation is visible in the waveform.  
 ![][fm4]
+
 
 ### Filtering
 
@@ -164,6 +174,7 @@ When the resonance is increased, it causes the filter to amplify frequencies at 
 
 ![][filter1]
 
+
 #### Harmonics
 
 1. Open VCF-Mixer  
@@ -175,6 +186,7 @@ When the resonance is increased, it causes the filter to amplify frequencies at 
 When the resonator is amplifying a harmonic of the current signal, it will be audible as a ringing sound at that pitch, and visible as a sine wave added to the signal.
 
 ![][filter2]![][filter3]![][filter4]![][filter5]![][filter6]
+
 
 [sinewave]: ./images/osclilloscope_guide/basic_waves/sine_wave.jpg
 [squarewave]: ./images/osclilloscope_guide/basic_waves/sq_wave.jpg
